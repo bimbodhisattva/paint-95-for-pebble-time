@@ -1,0 +1,38 @@
+{
+  "name": "Paint 95",
+  "author": "bimbodhisattva",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "watchface",
+    "uuid": "92152a30-9aac-4c6d-a7ce-4c8e57b5811f",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+    "media": [
+      {
+        "type":"font",
+        "name":"FONT_MS_SANS_SERIF_35",
+        "file":"ms-sans-serif-1.ttf",
+        "compatibility": "2.7"
+      },
+      {
+        "type":"bitmap",
+        "name":"IMAGE_BACKGROUND",
+        "file":"background.png"
+      }
+    ]
+    }
+  }
+}
